@@ -32,7 +32,7 @@
   "scripts": {
     "start": "expo start --dev-client",
     "android": "TAMAGUI_TARGET=native yarn expo run:android",
-    "ios": "TAMAGUI_TARGET=native yarn expo run:ios",
+    "ios": "DEBUG=tamagui TAMAGUI_TARGET=native yarn expo run:ios",
     "web": "TAMAGUI_TARGET=web yarn expo start --web",
     "eject": "expo eject"
   },
